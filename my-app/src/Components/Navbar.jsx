@@ -1,8 +1,16 @@
-import { HStack, Text } from '@chakra-ui/react'
+import { HStack } from '@chakra-ui/react'
 import React from 'react'
+import Accessories from './Accessories'
+import BeautyWellness from './BeautyWellness'
+import BHLDNWeddings from './BHLDNWeddings'
+import Clothing from './Clothing'
 import Dresses from './Dresses'
+import GardenOutdoor from './GardenOutdoor'
 import Gift from './Gift'
+import HomeFurniture from './HomeFurniture'
 import News from "./News"
+import Sale from './Sale'
+import Shoes from './Shoes'
 
 function Navbar() {
   return (
@@ -10,14 +18,14 @@ function Navbar() {
         <Gift/>
         <News/>
         <Dresses/>
-        <Text>Clothing</Text>
-        <Text>Shoes</Text>
-        <Text>Accessories</Text>
-        <Text>BHLDN-Weddings</Text>
-        <Text>Home & Furniture</Text>
-        <Text>Beauty & Wellness</Text>
-        <Text>Garden & Outdoor</Text>
-        <Text>Sale</Text>
+        <Clothing/>
+        <Shoes/>
+        <Accessories/>
+        <BHLDNWeddings/>
+        <HomeFurniture/>
+        <BeautyWellness/>
+       <GardenOutdoor/>
+        <Sale/>
     </HStack>
   )
 }
