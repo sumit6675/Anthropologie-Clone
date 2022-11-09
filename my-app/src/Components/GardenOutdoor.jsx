@@ -1,30 +1,30 @@
-import React from "react";
+import React from 'react'
 import {
-  Popover,
-  PopoverTrigger,
-  PopoverArrow,
-  PopoverContent,
-  PopoverCloseButton,
-  PopoverHeader,
-  PopoverBody,
-  Text,
-  HStack,
-  Box,
-  Heading,
-  Image,
-} from "@chakra-ui/react";
-function Gift() {
+    Popover,
+    PopoverTrigger,
+    PopoverArrow,
+    PopoverContent,
+    PopoverCloseButton,
+    PopoverHeader,
+    PopoverBody,
+    Text,
+    HStack,
+    Box,
+    Heading,
+    Image,
+  } from "@chakra-ui/react";
+function GardenOutdoor() {
   return (
     <Popover>
       <PopoverTrigger>
         <Text _hover={{ textDecoration: "underline" }} cursor="context-menu">
-          Gift
+        Garden & Outdoor
         </Text>
       </PopoverTrigger>
-      <PopoverContent w="90%" p="10px">
+      <PopoverContent w="98%" p="10px">
         <PopoverArrow />
         <PopoverCloseButton />
-        <HStack spacing={"25px"} justifyContent={"space-between"}>
+        <HStack justifyContent={"space-around"} spacing={"35px"}>
           <Box>
             <PopoverHeader>
               <Heading size={"md"}>Shop By Category</Heading>
@@ -37,63 +37,49 @@ function Gift() {
                     cursor="context-menu"
                     mt="8px"
                   >
-                    Explore All Gifts
+                   Shop All Dresses
                   </Text>
                   <Text
                     _hover={{ textDecoration: "underline" }}
                     cursor="context-menu"
                     mt="8px"
                   >
-                    Gift For Her
+                    News!
                   </Text>
                   <Text
                     _hover={{ textDecoration: "underline" }}
                     cursor="context-menu"
                     mt="8px"
                   >
-                    Shop All Gifts
+                    Top Rated Dresses
                   </Text>
                   <Text
                     _hover={{ textDecoration: "underline" }}
                     cursor="context-menu"
                     mt="8px"
                   >
-                    Candle Gifts & Sets
+                    Occasion & Party Dresses
                   </Text>
                   <Text
                     _hover={{ textDecoration: "underline" }}
                     cursor="context-menu"
                     mt="8px"
                   >
-                    Holiday Decor , Ornaments, Gift Wrap & More
+                   Launge & Casual Dresses
                   </Text>
                   <Text
                     _hover={{ textDecoration: "underline" }}
                     cursor="context-menu"
                     mt="8px"
                   >
-                    Stocking Stuffers
+                    Formal Dresses
                   </Text>
                   <Text
                     _hover={{ textDecoration: "underline" }}
                     cursor="context-menu"
                     mt="8px"
                   >
-                    Giftable Sweaters
-                  </Text>
-                  <Text
-                    _hover={{ textDecoration: "underline" }}
-                    cursor="context-menu"
-                    mt="8px"
-                  >
-                    Giftable Accessories: Jewelry, Bags, Scarves, & More{" "}
-                  </Text>
-                  <Text
-                    _hover={{ textDecoration: "underline" }}
-                    cursor="context-menu"
-                    mt="8px"
-                  >
-                    Gifts For The Home
+                   Max! Dresses
                   </Text>
                 </Box>
                 <Box>
@@ -102,56 +88,42 @@ function Gift() {
                     cursor="context-menu"
                     mt="8px"
                   >
-                    Cozy Gifts: PJs, Slippers, Throws, Mugs & More
+                   Mini & Tunic Dresses
                   </Text>
                   <Text
                     _hover={{ textDecoration: "underline" }}
                     cursor="context-menu"
                     mt="8px"
                   >
-                    Cold-Weather Gifts: Scarves, Hats, Activewear & More
+                    Midi Dresses
                   </Text>
                   <Text
                     _hover={{ textDecoration: "underline" }}
                     cursor="context-menu"
                     mt="8px"
                   >
-                    Personalized & Monogram Gifts
+                    Petie Dresses
                   </Text>
                   <Text
                     _hover={{ textDecoration: "underline" }}
                     cursor="context-menu"
                     mt="8px"
                   >
-                    Beauty Gifts and Sets
+                    Plus Dresses
                   </Text>
                   <Text
                     _hover={{ textDecoration: "underline" }}
                     cursor="context-menu"
                     mt="8px"
                   >
-                    Gifts By Recipient
+                   Wedding Guest Dresses
                   </Text>
                   <Text
                     _hover={{ textDecoration: "underline" }}
                     cursor="context-menu"
                     mt="8px"
                   >
-                    Bestselling Gifts
-                  </Text>
-                  <Text
-                    _hover={{ textDecoration: "underline" }}
-                    cursor="context-menu"
-                    mt="8px"
-                  >
-                    Gift Bundles: Bundle & Save
-                  </Text>
-                  <Text
-                    _hover={{ textDecoration: "underline" }}
-                    cursor="context-menu"
-                    mt="8px"
-                  >
-                    Gift Cards
+                    BHLDN Weddings
                   </Text>
                 </Box>
               </HStack>
@@ -159,7 +131,7 @@ function Gift() {
           </Box>
           <Box>
             <PopoverHeader>
-              <Heading size="md">Gifts By Price</Heading>
+              <Heading size="md">Featured Shops</Heading>
             </PopoverHeader>
             <PopoverBody>
               <Box>
@@ -168,84 +140,39 @@ function Gift() {
                   cursor="context-menu"
                   mt="12px"
                 >
-                  Gift Under $25
+                 Velvet Dresses
                 </Text>
                 <Text
                   _hover={{ textDecoration: "underline" }}
                   cursor="context-menu"
                   mt="12px"
                 >
-                  Gift Under $50
+                 Trending: Tulie
                 </Text>
                 <Text
                   _hover={{ textDecoration: "underline" }}
                   cursor="context-menu"
                   mt="12px"
                 >
-                  Gift Under $75
+                  Little Black Dresses
                 </Text>
                 <Text
                   _hover={{ textDecoration: "underline" }}
                   cursor="context-menu"
                   mt="12px"
                 >
-                  Gift Under $100
+                 Little White Dresses
                 </Text>
               </Box>
             </PopoverBody>
           </Box>
           <Box>
-            <PopoverHeader>
-              <Heading size="md">Featured</Heading>
-            </PopoverHeader>
-            <PopoverBody>
-              <Box>
-                <Text
-                  _hover={{ textDecoration: "underline" }}
-                  cursor="context-menu"
-                  mt="12px"
-                >
-                 The Pet Shop
-                </Text>
-                <Text
-                  _hover={{ textDecoration: "underline" }}
-                  cursor="context-menu"
-                  mt="12px"
-                >
-                 The Games Shop
-                </Text>
-                <Text
-                  _hover={{ textDecoration: "underline" }}
-                  cursor="context-menu"
-                  mt="12px"
-                >
-                 The George & Viv Holiday Shop
-                </Text>
-                <Text
-                  _hover={{ textDecoration: "underline" }}
-                  cursor="context-menu"
-                  mt="12px"
-                >
-                  The One-Size Gift Shop
-                </Text>
-                <Text
-                  _hover={{ textDecoration: "underline" }}
-                  cursor="context-menu"
-                  mt="12px"
-                >
-                  Terrain Holiday Gift Shop
-                </Text>
-              </Box>
-            </PopoverBody>
+            <Image src="https://images.urbndata.com/is/image/Anthropologie/54974415_004_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=720" h="300px" w="300px" alt="Dresses"/>
           </Box>
-          <Image
-            src="https://images.ctfassets.net/5de70he6op10/707skvaPUjWuminqERop6W/570d08ba0a78d5dfa20aa515a85d3e9d/Nov22_SiteContent_Home_StockingStuffersSupernav_2x.jpg?w=295&q=80&fm=webp"
-            alt="gift"
-          />
         </HStack>
       </PopoverContent>
     </Popover>
-  );
+  )
 }
 
-export default Gift;
+export default GardenOutdoor
