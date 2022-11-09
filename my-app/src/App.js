@@ -29,7 +29,7 @@ function App() {
            <Navbar/>
           </TabPanel>
           <TabPanel>
-            
+            <Navbar/>
           </TabPanel>
         </TabPanels>
       </Tabs>
