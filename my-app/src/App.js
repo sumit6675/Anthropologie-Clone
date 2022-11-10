@@ -8,6 +8,7 @@ import {
   Image,
 } from "@chakra-ui/react";
 import Navbar from "./Components/Navbar";
+import Anthropologie from "./Components/Anthropologie";
 function App() {
   return (
     <>
@@ -27,6 +28,7 @@ function App() {
         <TabPanels>
           <TabPanel>
            <Navbar/>
+           <Anthropologie/>
           </TabPanel>
           <TabPanel>
             <Navbar/>
