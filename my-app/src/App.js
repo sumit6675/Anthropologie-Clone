@@ -9,6 +9,7 @@ import {
 } from "@chakra-ui/react";
 import Navbar from "./Components/Navbar";
 import Anthropologie from "./Components/Anthropologie";
+import Footer from "./Components/Footer";
 function App() {
   return (
     <>
@@ -29,9 +30,11 @@ function App() {
           <TabPanel>
            <Navbar/>
            <Anthropologie/>
+           <Footer/>
           </TabPanel>
           <TabPanel>
             <Navbar/>
+            <Footer/>
           </TabPanel>
         </TabPanels>
       </Tabs>
