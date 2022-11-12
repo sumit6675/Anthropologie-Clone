@@ -3,6 +3,8 @@ import { Box,
     Image,
  } from '@chakra-ui/react'
 import React from 'react'
+import Carousels1 from './Carousels1'
+import Carousels2 from './Carousels2'
 
 function Anthropologie() {
   return (
@@ -50,6 +52,7 @@ function Anthropologie() {
             w="30%"
             />
         </HStack>
+        <Carousels2/>
         <Image src="https://images.ctfassets.net/5de70he6op10/sElVOkh1LlYRV8lFchscj/3fa66885dac24294a26ad182591b8639/ALiving_HPG_LS_01-1.jpg?w=2640&q=80&fm=webp"
         alt="img5"
         w="90%"
@@ -76,6 +79,7 @@ function Anthropologie() {
             w="30%"
             />
         </HStack>
+        <Carousels1/>
     </Box>
     </>
   )

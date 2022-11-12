@@ -10,6 +10,7 @@ import {
 import Navbar from "./Components/Navbar";
 import Anthropologie from "./Components/Anthropologie";
 import Footer from "./Components/Footer";
+import AnthropogieHome from "./Components/AnthropogieHome";
 function App() {
   return (
     <>
@@ -34,6 +35,7 @@ function App() {
           </TabPanel>
           <TabPanel>
             <Navbar/>
+            <AnthropogieHome/>
             <Footer/>
           </TabPanel>
         </TabPanels>
