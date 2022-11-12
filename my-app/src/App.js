@@ -11,6 +11,8 @@ import Navbar from "./Components/Navbar";
 import Anthropologie from "./Components/Anthropologie";
 import Footer from "./Components/Footer";
 import AnthropogieHome from "./Components/AnthropogieHome";
+import Sign from "./Components/Sign";
+import SignUp from "./Components/SignUp";
 function App() {
   return (
     <>
@@ -24,7 +26,13 @@ function App() {
           </Tab>
           <Image src="https://iili.io/ydiTiJ.png" alt="logo" w="200px" mt="-20px" p="10px"/>
           <Tab h="50px"  fontSize={"35px"} _selected={{ color: "white", bg: "green.400" }} mt="30px" p="10px">
-            Sign In / Sign Up
+            Sign In
+          </Tab>
+          <Tab h="50px"  fontSize={"35px"} _selected={{ color: "white", bg: "green.400" }} mt="30px" p="10px">
+            Sign Up
+          </Tab>
+          <Tab h="50px"  fontSize={"35px"} _selected={{ color: "white", bg: "green.400" }} mt="30px" p="10px">
+            Cart
           </Tab>
         </TabList>
         <TabPanels>
@@ -36,6 +44,20 @@ function App() {
           <TabPanel>
             <Navbar/>
             <AnthropogieHome/>
+            <Footer/>
+          </TabPanel>
+          <TabPanel>
+            <Navbar/>
+            <Sign/>
+            <Footer/>
+          </TabPanel>
+          <TabPanel>
+            <Navbar/>
+            <SignUp/>
+            <Footer/>
+          </TabPanel>
+          <TabPanel>
+            <Navbar/>
             <Footer/>
           </TabPanel>
         </TabPanels>
