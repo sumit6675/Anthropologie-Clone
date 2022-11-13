@@ -1,11 +1,15 @@
 import React from "react";
 import Carousels1 from "./Carousels1";
 import Carousels2 from "./Carousels2";
-import { Box, Button, Grid, HStack, Image, Text } from "@chakra-ui/react";
+import { Box, Button, Grid, HStack, Image, Text, Flex } from "@chakra-ui/react";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 function AnthropogieHome() {
   return (
     <div>
+      <Navbar/>
       <Carousels1 />
+      <Button w="12rem" ml="650px" mt="-230px" >Shop Winterware</Button>
       <HStack w="98%" my="40px" ml="80px">
         <Image
           src="https://images.ctfassets.net/5de70he6op10/UX5eGE7bo9oUNjfdyQNsw/5c3abd7df830dd1824c5bce829721393/ALiving_HPG_LS_02-1.jpg?w=856&q=80&fm=webp"
@@ -23,6 +27,11 @@ function AnthropogieHome() {
           w="30%"
         />
       </HStack>
+      <Flex  w="75%" m="auto" gap="350px" mt="-100px" mb="100px">
+            <Button w="18rem">Shop Cutlary</Button>
+            <Button w="18rem">Shop Pillow</Button>
+            <Button w="18rem">Shop Tables</Button>
+        </Flex>
       <Grid templateColumns={"repeat(2, 1fr)"} gap="2rem" my="40px">
         <Image
           src="https://images.ctfassets.net/5de70he6op10/1gv0bdHTUEGoWrrdva2MJ5/c2e4dcd40a06168c9f567cc411bb8dab/ALiving_HPG_LS_03-1.jpg?w=1302&q=80&fm=webp"
@@ -41,6 +50,7 @@ function AnthropogieHome() {
           alt="img"
         />
       </Grid>
+      
       <Grid templateColumns="0.25fr 0.75fr" gap={0}>
         <Image
           src="https://images.ctfassets.net/5de70he6op10/4OMD9IMQyoMOZWdSr0RyRI/6b4fa49e55a158e7cf5ee12b3640b873/ALiving_HPG_LS_1-1.jpg?w=660&q=80&fm=webp"
@@ -228,6 +238,7 @@ function AnthropogieHome() {
       >
         Exclusions apply. See details.
       </Text>
+      <Footer/>
     </div>
   );
 }

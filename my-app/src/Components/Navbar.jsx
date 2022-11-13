@@ -14,7 +14,7 @@ import Shoes from './Shoes'
 
 function Navbar() {
   return (
-    <HStack justifyContent={"space-around"} mt="-40px">
+    <HStack justifyContent={"space-around"} mt="-80px">
         <Gift/>
         <News/>
         <Dresses/>
