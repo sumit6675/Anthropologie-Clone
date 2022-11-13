@@ -4,12 +4,13 @@ import Carousels2 from "./Carousels2";
 import { Box, Button, Grid, HStack, Image, Text, Flex } from "@chakra-ui/react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import {Link} from "react-router-dom"
 function AnthropogieHome() {
   return (
     <div>
       <Navbar/>
       <Carousels1 />
-      <Button w="12rem" ml="650px" mt="-230px" >Shop Winterware</Button>
+      <Link to="/product"><Button w="12rem" ml="650px" mt="-230px" >Shop Winterware</Button></Link>
       <HStack w="98%" my="40px" ml="80px">
         <Image
           src="https://images.ctfassets.net/5de70he6op10/UX5eGE7bo9oUNjfdyQNsw/5c3abd7df830dd1824c5bce829721393/ALiving_HPG_LS_02-1.jpg?w=856&q=80&fm=webp"
@@ -28,9 +29,9 @@ function AnthropogieHome() {
         />
       </HStack>
       <Flex  w="75%" m="auto" gap="350px" mt="-100px" mb="100px">
-            <Button w="18rem">Shop Cutlary</Button>
-            <Button w="18rem">Shop Pillow</Button>
-            <Button w="18rem">Shop Tables</Button>
+            <Link to="/product" w="18rem"><Button>Shop Cutlary</Button></Link>
+            <Link to="/product" w="18rem"><Button>Shop Pillow</Button></Link>
+            <Link to="/product" w="18rem"><Button>Shop Tables</Button></Link>
         </Flex>
       <Grid templateColumns={"repeat(2, 1fr)"} gap="2rem" my="40px">
         <Image
@@ -144,23 +145,21 @@ function AnthropogieHome() {
         </Box>
         <Box textAlign={"center"}>
           <Text my="5px" fontSize={"2xl"}>
-            Anthro Design Services
+          Anthro At Your Service
           </Text>
           <Text my="5px" w="80%">
-            Let's make your decorating dreams come true — from the cozy comfort
-            of your home.
+          We're here to help! Discover guides, resources, styling tips & more.
           </Text>
-          <Button my="5px">Book a Free Virtual Appoitment Today</Button>
+          <Button my="5px">Right This Way</Button>
         </Box>
         <Box textAlign={"center"}>
           <Text my="5px" fontSize={"2xl"}>
-            Anthro Design Services
+          See It In Person
           </Text>
           <Text my="5px" w="80%">
-            Let's make your decorating dreams come true — from the cozy comfort
-            of your home.
+          Whether you're in California or Connecticut, there's a Design Center near you!
           </Text>
-          <Button my="5px">Book a Free Virtual Appoitment Today</Button>
+          <Button my="5px">Find a store</Button>
         </Box>
       </HStack>
       <Image
@@ -190,42 +189,40 @@ function AnthropogieHome() {
         </Box>
         <Box>
           <Image
-            src="https://images.ctfassets.net/5de70he6op10/1X4CBVQAx2jDT5SLGzrpPG/3e300db2c97fec1deee15cbc82c5f721/ALiving_HPG_LS_06-1.jpg?w=856&q=80&fm=webp"
+            src="https://images.ctfassets.net/5de70he6op10/5uME423kMlIJoJNXtHka4/003d2de4854080530d3b74931b18d2ad/ALiving_HPG_LS_MTE-2.jpg?w=856&q=80&fm=webp"
             alt="img"
           />
           <Text fontSize={"xl"} fontWeight="bold">
-            In Stock & Ready to Ship
+          AnthroLiving Designer & Trade Program
           </Text>
           <Text>
-            Need it sooner? These only-at-Anthro pieces are set to arrive in 30
-            days or less!
+          Enjoy exclusive pricing (24/7!) on our premium collection of furniture & décor.
           </Text>
           <Text
             cursor={"pointer"}
             textDecoration={"underline"}
             color="blue.800"
           >
-            Shop All Furniture and Home
+           enroll now - it's free!
           </Text>
         </Box>
         <Box>
           <Image
-            src="https://images.ctfassets.net/5de70he6op10/1X4CBVQAx2jDT5SLGzrpPG/3e300db2c97fec1deee15cbc82c5f721/ALiving_HPG_LS_06-1.jpg?w=856&q=80&fm=webp"
+            src="https://images.ctfassets.net/5de70he6op10/3x8eUCX6EOSxAjnd9EVthj/2d4eb2fca05b2fa7e1a204882a514f6e/ALiving_HPG_LS_06-3.jpg?w=856&q=80&fm=webp"
             alt="img"
           />
           <Text fontSize={"xl"} fontWeight="bold">
-            In Stock & Ready to Ship
+          Join @AnthroLiving
           </Text>
           <Text>
-            Need it sooner? These only-at-Anthro pieces are set to arrive in 30
-            days or less!
+          scroll | share | explore | enjoy | connect | create
           </Text>
           <Text
             cursor={"pointer"}
             textDecoration={"underline"}
             color="blue.800"
           >
-            Shop All Furniture and Home
+           follow us on Instagram
           </Text>
         </Box>
       </HStack>
