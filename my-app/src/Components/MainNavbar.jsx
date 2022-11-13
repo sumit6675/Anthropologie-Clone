@@ -39,7 +39,7 @@ function MainNavbar() {
           Logout
         </Text>
       </Link>
-      <Link to="/cart">
+      {/* <Link to="/cart">
         <Text
           h="50px"
           fontSize={"35px"}
@@ -49,7 +49,7 @@ function MainNavbar() {
         >
           Cart
         </Text>
-      </Link>
+      </Link> */}
     </Flex>
   );
 }
