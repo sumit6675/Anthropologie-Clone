@@ -2,6 +2,7 @@ import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import AnthropogieHome from './AnthropogieHome'
 import Anthropologie from './Anthropologie'
+import Productpage from './Productpage'
 import Sign from './Sign'
 import SignUp from './SignUp'
 
@@ -13,6 +14,7 @@ function Allroutes() {
             <Route path="/anthropologiehome" element={<AnthropogieHome/>}/>
             <Route path="/login" element={<Sign/>}/>
             <Route path="/logout" element={<SignUp/>}/>
+            <Route path="/product" element={<Productpage/>}/>
         </Routes>
     </div>
   )
