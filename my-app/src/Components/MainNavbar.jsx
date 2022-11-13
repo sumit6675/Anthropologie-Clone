@@ -36,7 +36,7 @@ function MainNavbar() {
       </Link>
       <Link to="/logout">
         <Text h="50px" fontSize={"35px"} mt="30px" p="10px">
-          Logout
+          Sign Up
         </Text>
       </Link>
       {/* <Link to="/cart">
