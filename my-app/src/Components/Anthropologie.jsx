@@ -1,15 +1,20 @@
 import { Box, 
+    Button, 
+    Flex, 
     HStack, 
     Image,
  } from '@chakra-ui/react'
 import React from 'react'
 import Carousels1 from './Carousels1'
 import Carousels2 from './Carousels2'
+import Footer from './Footer'
+import Navbar from './Navbar'
 
 function Anthropologie() {
   return (
     <>
     <Box w="95%" margin={"auto"}>
+        <Navbar/>
         <HStack w="95%" margin={"auto"} mt="50px" spacing="auto">
             <Image src="https://images.ctfassets.net/5de70he6op10/66gBHQY9rlKtf5IItLdMCa/eb48274717871eb64ba75900e042218f/LS_M0_Banner_a.jpg?w=630&q=80&fm=webp"
             alt='img1'
@@ -38,6 +43,10 @@ function Anthropologie() {
             w="45%"
             />
         </HStack>
+        <Flex  w="70%" m="auto" gap="650px" mt="-100px" mb="100px">
+            <Button>Shop Dresses</Button>
+            <Button>Shop Skirt</Button>
+        </Flex>
         <HStack w="98%" mt="30px" ml="80px">
             <Image src="https://images.ctfassets.net/5de70he6op10/3w8rGkLqypJyMI94W5jAz6/b1a47476e9fa52841b06bcbf50e8c337/LS_M2a.jpg?w=856&q=80&fm=webp"
             alt="img4"
@@ -52,19 +61,30 @@ function Anthropologie() {
             w="30%"
             />
         </HStack>
+        <Flex  w="75%" m="auto" gap="350px" mt="-100px" mb="100px">
+            <Button w="18rem">Shop Sweater</Button>
+            <Button w="18rem">Shop Winterware</Button>
+            <Button w="18rem">Shop Skirt</Button>
+        </Flex>
         <Carousels2/>
+        <Flex  w="70%" m="auto" gap="650px" mt="-100px" mb="100px">
+            <Button>Shop Furniture</Button>
+            <Button>Shop Tables</Button>
+        </Flex>
         <Image src="https://images.ctfassets.net/5de70he6op10/sElVOkh1LlYRV8lFchscj/3fa66885dac24294a26ad182591b8639/ALiving_HPG_LS_01-1.jpg?w=2640&q=80&fm=webp"
         alt="img5"
         w="90%"
         mt="30px"
         ml="80px"
         />
+        <Button w="12rem" ml="650px" mt="-120px" >Shop Winterware</Button>
         <Image src="https://images.ctfassets.net/5de70he6op10/6YcDf5MI12J4gw9cOaz9WP/70f858a9574c2e0ff43b2b7bdc6e61af/LS_M4.jpg?w=2641&q=80&fm=webp"
         alt="img5"
         w="90%"
         mt="30px"
         ml="80px"
         />
+          <Button w="12rem" ml="650px" mt="-120px" >Shop Dresses</Button>
          <HStack w="98%" mt="30px" ml="80px">
             <Image src="https://images.ctfassets.net/5de70he6op10/7fzJY7mnX3XvCv1RNf6mTp/79d5f396c261126621d9a105c88faaf3/RR_Kitchen_Dining.jpg?w=856&q=80&fm=webp"
             alt="img4"
@@ -79,8 +99,15 @@ function Anthropologie() {
             w="30%"
             />
         </HStack>
+        <Flex  w="75%" m="auto" gap="350px" mt="-100px" mb="100px">
+            <Button w="18rem">Shop Cutlary</Button>
+            <Button w="18rem">Shop Pillow</Button>
+            <Button w="18rem">Shop Tables</Button>
+        </Flex>
         <Carousels1/>
+        <Button w="12rem" ml="620px" mt="-230px" >Shop Winterware</Button>
     </Box>
+    <Footer/>
     </>
   )
 }

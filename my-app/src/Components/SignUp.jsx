@@ -10,9 +10,12 @@ import {
   InputLeftAddon,
   Checkbox,
 } from "@chakra-ui/react";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 function SignUp() {
   return (
     <Box>
+      <Navbar/>
       <Box
         w="35%"
         m="auto"
@@ -61,6 +64,7 @@ function SignUp() {
        <Text fontSize={"2xl"} fontWeight="bold" my="20px">Already Have an Account?</Text>
        <Button my="25px" fontSize={"xl"} w="40%">SIGN IN</Button>
       </Box>
+      <Footer/>
     </Box>
   );
 }
