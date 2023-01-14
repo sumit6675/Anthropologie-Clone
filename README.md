@@ -77,7 +77,6 @@ Visit : https://lighthearted-pothos-c900cf.netlify.app/
 - React JS
 - JavaScript
 - Chakra UI
-- Redux JS
 - Axios
 
 ## Other Tools and Libraries
